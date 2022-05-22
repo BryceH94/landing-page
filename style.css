@@ -1,8 +1,3 @@
-img {
-    max-width: 300px;
-    /* Temp to make images not huge */
-}
-
 body {
     font-family: Roboto, sans-serif;
     margin: 0;
@@ -74,4 +69,43 @@ button {
 .subtext {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.info-cards {
+    margin: 32px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin-bottom: 32px;
+}
+
+.info-cards .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    color: #1F2937;
+}
+
+.card img {
+    object-fit: cover;
+    width: 230px;
+    height: 230px;
+    border: solid 3px #3882F6;
+    border-radius: 15px;
 }
