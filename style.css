@@ -34,10 +34,17 @@ button {
     color: #F9FAF8;
     font-size: 24px;
     font-weight: bold;
-    padding: 16px 0;
+    padding: 16px 64px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
 }
 
 .hero {
