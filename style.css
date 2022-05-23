@@ -29,6 +29,10 @@ button {
     padding: 8px 32px;
 }
 
+button a {
+    color: #F9FAF8;
+}
+
 .header {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -144,4 +148,32 @@ button {
     display: flex;
     justify-content: flex-end;
     padding-right: 16px;
+}
+
+.action-call-block {
+    color: #F9FAF8;
+    padding: 64px;
+}
+
+.action-call {
+    background-color: #3882F6;
+    border-radius: 15px;
+    padding: 32px 108px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-title {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.action-sub {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.action-button {
+    border: solid 3px #F9FAF8;
 }
