@@ -116,3 +116,31 @@ button {
     border: solid 3px #3882F6;
     border-radius: 15px;
 }
+
+.quote-block {
+    background-color: #E5E7EB;
+    color: #F9FAF8;
+    padding: 64px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.quote-block .container {
+    max-width: 600px;
+    color: #1F2937;
+}
+
+.quote {
+    font-size: 36px;
+}
+
+.quote-atrib {
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 16px;
+}
