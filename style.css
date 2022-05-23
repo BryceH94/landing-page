@@ -177,3 +177,13 @@ button a {
 .action-button {
     border: solid 3px #F9FAF8;
 }
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 16px 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
