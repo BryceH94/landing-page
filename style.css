@@ -60,12 +60,13 @@ button {
 .hero .container {
     display: flex;
     flex-wrap: wrap;
-    max-width: 400px;
-    gap: 8px;
+    max-width: 500px;
+    gap: 16px;
 }
 
 .hero img {
     max-width: 400px;
+    border-radius: 15px;
 }
 
 .maintext {
